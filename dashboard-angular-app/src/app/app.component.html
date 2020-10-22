@@ -1,0 +1,21 @@
+<p>Click one of the buttons below to display a dashboard in the popup window:</p>
+<dx-button
+    text="Show Support Dashboard"
+    (onClick)="showDashboardInPopup(store[0])">
+</dx-button>
+<dx-button
+    text="Show Products Dashboard"
+    (onClick)="showDashboardInPopup(store[1])">
+</dx-button>
+<dx-popup
+    [title]='title'    
+    [(visible)]='isPopupVisible'>
+    <div *dxTemplate="let data of 'content'">
+      <dx-dashboard-control 
+        style="height:'100%'; display: 'block'; width: '100%'"
+        endpoint='http://localhost:5000/api/dashboard'
+        [dashboardId]='dashboardId'
+        workingMode='Viewer'>
+      </dx-dashboard-control>
+    </div>
+</dx-popup>
