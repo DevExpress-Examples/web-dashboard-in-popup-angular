@@ -11,9 +11,9 @@ interface DashboardInfo {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Support Traffic';
-  isPopupVisible = false;
-  dashboardId = 'support';
+  title : string = 'Support Traffic';
+  isPopupVisible : boolean = false;
+  dashboardId : string = 'support';
   store : DashboardInfo[] = [
     {"id": "support", "name": "Support Traffic"},
     {"id": "products", "name": "Product Details"},
