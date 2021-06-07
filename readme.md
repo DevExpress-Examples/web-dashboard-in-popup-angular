@@ -37,5 +37,6 @@ Open ```http://localhost:4200/``` in your browser to see the result.
 - [Cross-Origin Resource Sharing (CORS)](https://docs.devexpress.com/Dashboard/400709?v=20.2)
 
 ## Examples
-- [Dashboard Client-Side Application (Angular)](https://github.com/DevExpress-Examples/dashboard-angular-app)
-- [Dashboard Angular Example](https://github.com/DevExpress-Examples/dashboard-angular-example)
+- [Get Started - Client-Side Dashboard Application built with Angular](https://github.com/DevExpress-Examples/dashboard-angular-app)
+- [Dashboard Component for Angular - Configuration](https://github.com/DevExpress-Examples/dashboard-angular-example)
+- [Dashboard Component for React - How to display the Web Dashboard in a popup](https://github.com/DevExpress-Examples/web-dashboard-in-popup-react)
