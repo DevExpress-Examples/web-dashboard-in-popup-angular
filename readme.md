@@ -1,4 +1,4 @@
-# How to display the Web Dashboard in a popup (Angular)
+# Dashboard Component for Angular - How to display the Web Dashboard in a popup
 
 This example illustrates how to use the Angular-based `dx-dashboard-control` component to diplay a dashboard in the [DevExtreme Popup widget](https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxPopup/).
 
