@@ -32,9 +32,10 @@ npm start
 Open ```http://localhost:4200/``` in your browser to see the result.
 
 ## Documentation
-- [Add Web Dashboard to an Angular CLI Application](https://docs.devexpress.com/Dashboard/400409?v=20.2)
-- [Dashboard Component for Angular](https://docs.devexpress.com/Dashboard/401976?v=20.2)
-- [Cross-Origin Resource Sharing (CORS)](https://docs.devexpress.com/Dashboard/400709?v=20.2)
+- [Add Web Dashboard to an Angular CLI Application](https://docs.devexpress.com/Dashboard/400409)
+- [Dashboard Component for Angular](https://docs.devexpress.com/Dashboard/401976)
+- [Cross-Origin Resource Sharing (CORS)](https://docs.devexpress.com/Dashboard/400709)
+- [Install DevExpress Controls Using NuGet Packages](https://docs.devexpress.com/GeneralInformation/115912/installation/install-devexpress-controls-using-nuget-packages)
 
 ## Examples
 - [Get Started - Client-Side Dashboard Application built with Angular](https://github.com/DevExpress-Examples/dashboard-angular-app)
