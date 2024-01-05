@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
+import { DxDashboardControlModule } from 'devexpress-dashboard-angular';
+import { DxButtonModule, DxPopupModule } from 'devextreme-angular';
 
 interface DashboardInfo {
   id: string;
@@ -7,8 +11,15 @@ interface DashboardInfo {
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [
+    CommonModule, 
+	RouterOutlet, 
+	DxDashboardControlModule,
+	DxPopupModule,
+	DxButtonModule],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
   title : string = 'Support Traffic';
@@ -24,5 +35,4 @@ export class AppComponent {
     this.dashboardId = storeItem.id; 
     this.title = storeItem.name
   }
-
 }
